@@ -1,4 +1,4 @@
-# $Id: MitchleyKay,v 1.4 2003-12-16 19:23:35 mitch Exp $
+# $Id: MitchleyKay,v 1.5 2004-08-02 09:49:30 mitch Exp $
 # Mitchley Kay
 # 2003 by <mitch@cgarbs.de>
 #
@@ -33,6 +33,10 @@ toolbar.label:			Sunken Gradient Vertical Interlaced
 toolbar.label.color:		rgb:62/70/85
 toolbar.label.colorTo:		rgb:56/66/75
 toolbar.label.textColor:	rgb:FF/FF/FF
+
+toolbar.iconbar.*:		Sunken Gradient Vertical Interlaced
+toolbar.iconbar.*.color:	rgb:62/70/85
+toolbar.iconbar.*.colorTo:	rgb:56/66/75
 
 toolbar.windowLabel:		Raised Gradient Vertical Interlaced
 toolbar.windowLabel.color:	rgb:62/70/85
