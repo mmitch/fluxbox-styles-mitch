@@ -1,4 +1,4 @@
-# $Id: GreenCRT,v 1.4 2004-03-20 13:25:43 mitch Exp $
+# $Id: GreenCRT,v 1.5 2004-04-02 06:37:18 mitch Exp $
 #
 # Green CRT style for the Fluxbox window manager
 #
@@ -97,11 +97,11 @@ window.justify:			Center
 window.tab.justify:	        Center
 
 # Fonts
-menu.frame.font:              	-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
-menu.title.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
-toolbar.font:			-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
-window.font:			-xos4-terminus-bold-r-normal-*-14-*-*-*-*-*-*-*
-window.tab.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-*-*
+menu.frame.font:              	-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+menu.title.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+toolbar.font:			-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
+window.font:			-xos4-terminus-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
+window.tab.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
 
 # Borders
 bevelWidth:			1
