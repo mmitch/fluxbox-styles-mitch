@@ -1,4 +1,4 @@
-# $Id: BlackMitch,v 1.3 2004-10-16 11:38:18 mitch Exp $
+# $Id: BlackMitch,v 1.4 2004-10-16 13:55:07 mitch Exp $
 # Black Mitch  --  very minimal, very black
 # built from scratch
 # (c) 2004 by <mitch@cgarbs.de>
@@ -7,8 +7,8 @@
 # darken inactive windows and inactive icons
 #   window.label.unfocus.textColor does not work,
 #   so set the default to dark and light everything else
-window.button.unfocus.picColor:	#666666
-*textColor:			#666666
+window.button.unfocus.picColor:	#555555
+*textColor:			#555555
 window.label.focus.textColor:	#ffffff
 menu*textColor:			#ffffff
 toolbar*textColor:		#ffffff
@@ -17,7 +17,7 @@ window*focus.textColor:		#ffffff
 # hilight menu selection
 
 menu.hilite.color:		#000000
-menu.hilite.colorTo:		#666666
+menu.hilite.colorTo:		#555555
 menu.hilite:			flat interlaced
 
 # bullets to the right (only visible with fluxbox<0.9 anyway)
