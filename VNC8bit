@@ -1,4 +1,4 @@
-# $Id: VNC8bit,v 1.2 2003-12-22 21:56:54 mitch Exp $
+# $Id: VNC8bit,v 1.3 2004-08-04 10:31:41 mitch Exp $
 # VNC 8bit
 # 2003 by <mitch@cgarbs.de>
 #
@@ -15,25 +15,35 @@
 # # 2001
 
 
-toolbar:			Interlaced
+toolbar:			Flat Solid Interlaced
 toolbar.color:			rgb:CC/CC/CC
 
-toolbar.button:				Raised
+toolbar.iconbar.empty:		Raised Solid Interlaced
+toolbar.iconbar.empty.color:	rgb:CC/CC/CC
+toolbar.iconbar.focused:	Raised Solid Interlaced
+toolbar.iconbar.focused.color:	rgb:CA/CD/CF
+toolbar.iconbar.unfocused:	Raised Solid Interlaced
+toolbar.iconbar.unfocused.color:	rgb:90/BB/CC
+
+toolbar.workspace:		Raised Solid Interlaced
+toolbar.workspace.color:	rgb:CC/CC/CC
+
+toolbar.button:			Raised Solid Interlaced
 toolbar.button.color:		rgb:CC/CC/CC
 toolbar.button.picColor:	rgb:10/10/10
 
-toolbar.button.pressed:		Sunken
+toolbar.button.pressed:		Sunken Solid Interlaced
 toolbar.button.pressed.color:	rgb:80/80/80
 
-toolbar.clock:				Raised
+toolbar.clock:			Raised Solid Interlaced
 toolbar.clock.color:		rgb:CC/CC/CC
 toolbar.clock.textColor:	rgb:10/10/10
 
-toolbar.label:				Raised
+toolbar.label:			Raised Solid Interlaced
 toolbar.label.color:		rgb:CC/CC/CC
 toolbar.label.textColor:	rgb:10/10/10
 
-toolbar.windowLabel:		Raised
+toolbar.windowLabel:		Raised Solid Interlaced
 toolbar.windowLabel.color:	rgb:CC/CC/CC
 toolbar.windowLabel.textColor:	rgb:10/10/10
 
