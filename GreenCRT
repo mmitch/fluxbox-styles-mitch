@@ -1,4 +1,4 @@
-# $Id: GreenCRT,v 1.7 2004-08-04 10:28:38 mitch Exp $
+# $Id: GreenCRT,v 1.8 2004-08-04 12:01:24 mitch Exp $
 #
 # Green CRT style for the Fluxbox window manager
 #
@@ -11,11 +11,12 @@ toolbar:			Flat Solid Interlaced
 toolbar.color:			rgb:00/60/00
 toolbar.colorTo:		rgb:00/00/00
 
-toolbar.button:			ParentRelative
+toolbar.button:			Flat Solid Interlaced
 toolbar.button.color:		rgb:00/60/00
+toolbar.button.colorTo:		rgb:00/00/00
 toolbar.button.picColor:	rgb:00/B0/00
 
-toolbar.button.pressed:		ParentRelative
+toolbar.button.pressed:		Flat Solid Interlaced
 toolbar.button.pressed.color:	rgb:00/90/00
 toolbar.button.pressed.colorTo:	rgb:00/00/00
 
@@ -113,6 +114,7 @@ window.tab.borderColor:			rgb:00/00/00
 menu.frame.justify:		Left
 menu.title.justify:		Left
 toolbar.justify:		Center
+toolbar.*.justify:		Center
 window.justify:			Center
 window.tab.justify:	        Center
 
@@ -126,6 +128,9 @@ window.tab.font:		-xos4-terminus-medium-r-normal-*-14-*-*-*-*-*-iso8859-*
 # Borders
 bevelWidth:			1
 borderColor:			rgb:00/00/00
+# Try borderColor:		rgb:FF/FF/FF
 borderWidth:			1
 handleWidth:			2
 window.tab.borderWidth:		1
+toolbar.*.borderWidth:		0
+toolbar.*.bevelWidth:		0
