@@ -1,4 +1,4 @@
-# $Id: MitchleyKay,v 1.3 2003-12-15 23:30:46 mitch Exp $
+# $Id: MitchleyKay,v 1.4 2003-12-16 19:23:35 mitch Exp $
 # Mitchley Kay
 # 2003 by <mitch@cgarbs.de>
 #
@@ -47,13 +47,13 @@ menu.title.colorTo:		rgb:56/60/68
 menu.title.textColor:		rgb:E9/E9/E9
 menu.title.justify:		Right
 
-menu.frame:			Flat Gradient Vertical Interlaced
+menu.frame:			Raised Gradient Vertical Interlaced
 menu.frame.color:		rgb:62/70/85
 menu.frame.colorTo:		rgb:56/66/75
 menu.frame.textColor:		rgb:E2/E2/E2
 menu.frame.justify:		Left
 
-menu.hilite:			Flat Gradient Horizontal Interlaced
+menu.hilite:			Raised Gradient Horizontal Interlaced
 menu.hilite.color:		rgb:50/50/50
 menu.hilite.colorTo:		rgb:42/42/42
 menu.hilite.textColor:		rgb:FF/FF/FF
