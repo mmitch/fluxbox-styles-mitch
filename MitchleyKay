@@ -1,6 +1,6 @@
-# $Id: MitchleyKay,v 1.5 2004-08-02 09:49:30 mitch Exp $
+# $Id: MitchleyKay,v 1.6 2004-08-04 12:49:03 mitch Exp $
 # Mitchley Kay
-# 2003 by <mitch@cgarbs.de>
+# 2003-2004 by <mitch@cgarbs.de>
 #
 # this is just a minor variation of:
 
@@ -42,6 +42,11 @@ toolbar.windowLabel:		Raised Gradient Vertical Interlaced
 toolbar.windowLabel.color:	rgb:62/70/85
 toolbar.windowLabel.colorTo:	rgb:56/66/75
 toolbar.windowLabel.textColor:	rgb:FF/FF/FF
+
+toolbar.workspace:		Sunken Gradient Vertical Interlaced
+toolbar.workspace.color:	rgb:62/70/85
+toolbar.workspace.colorTo:	rgb:56/66/75
+toolbar.workspace.textColor:	rgb:FF/FF/FF
 
 toolbar.justify:		center
 
