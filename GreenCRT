@@ -1,0 +1,113 @@
+# $Id: GreenCRT,v 1.1 2004-03-13 16:00:10 mitch Exp $
+#
+# Green CRT style for the Fluxbox window manager
+#
+# 2004 by Christian Garbs <mitch@cgarbs.de>
+#
+# I started hacking with "Anime no Tomodachi" as a template, but none
+# of the original settings should have survived.
+
+toolbar:			Flat Interlaced
+toolbar.color:			rgb:00/40/00
+toolbar.button:			parentrelative
+toolbar.button.color:		rgb:00/40/00
+toolbar.button.picColor:	rgb:00/A0/00
+
+toolbar.button.pressed:		Flat Interlaced
+toolbar.button.pressed.color:	rgb:00/80/00
+
+toolbar.clock:			parentrelative
+toolbar.clock.color:		rgb:00/40/00
+toolbar.clock.textColor:	rgb:00/A0/00
+
+toolbar.label:			parentrelative
+toolbar.label.color:		rgb:00/40/00
+toolbar.label.textColor:	rgb:00/A0/00
+
+toolbar.windowLabel:		parentrelative
+toolbar.windowLabel.color:	rgb:00/40/00
+toolbar.windowLabel.textColor:	rgb:00/A0/00
+
+menu.title:			Flat 
+# Interlaced
+menu.title.color:		rgb:00/40/00
+menu.title.textColor:		rgb:00/CF/00
+
+menu.frame:			Flat Interlaced
+menu.frame.color:		rgb:00/40/00
+menu.frame.textColor:		rgb:00/A0/00
+
+menu.hilite:			Flat
+# Interlaced
+menu.hilite.color:		rgb:00/80/00
+menu.hilite.textColor:		rgb:00/CF/00
+
+menu.bullet:			Triangle
+menu.bullet.position:		Right
+
+window.title.focus:		Flat Interlaced
+window.title.focus.color:	rgb:00/80/00
+window.title.focus.colorTo:	rgb:00/00/00
+window.title.unfocus:		Flat Interlaced
+window.title.unfocus.color:	rgb:00/40/00
+
+window.label.focus:		parentrelative
+window.label.focus.textColor:	rgb:00/CF/00
+window.label.unfocus:		parentrelative
+window.label.unfocus.textColor:	rgb:00/A0/00
+
+window.button.focus:		parentrelative
+window.button.focus.picColor:	rgb:00/CF/00
+window.button.unfocus:		parentrelative
+window.button.unfocus.picColor:	rgb:00/A0/00
+window.button.pressed:		Flat Interlaced
+window.button.pressed.color:	rgb:00/40/00
+
+window.frame.focus:		Flat
+window.frame.focusColor:	rgb:00/80/00
+window.frame.unfocus:		Flat
+window.frame.unfocusColor:	rgb:00/40/00
+
+window.handle.focus:		Flat
+# Interlaced
+window.handle.focus.color:	rgb:00/A0/00
+window.handle.unfocus:		Flat
+# Interlaced
+window.handle.unfocus.color:	rgb:00/40/00
+
+window.grip.focus:		Flat 
+window.grip.focus.color:	rgb:00/CF/00
+window.grip.unfocus:		Flat
+window.grip.unfocus.color:	rgb:00/80/00
+
+window.tab.label.unfocus:	        Flat Interlaced
+window.tab.label.unfocus.color:	   	rgb:00/40/00
+window.tab.label.unfocus.textColor:	rgb:00/A0/00
+
+window.tab.label.focus:	        	Flat
+# Interlaced
+window.tab.label.focus.Color:	  	rgb:00/40/00
+window.tab.label.focus.textColor:	rgb:00/CF/00
+
+window.tab.borderColor:			rgb:00/00/00
+
+# Justification
+menu.frame.justify:		Left
+menu.title.justify:		Left
+toolbar.justify:		Center
+window.justify:			Center
+window.tab.justify:	        Center
+
+# Fonts
+menu.frame.font:              	-misc-fixed-medium-r-normal-*-*-120-*-*-*-*-*-*
+menu.title.font:		-misc-fixed-medium-r-normal-*-*-120-*-*-*-*-*-*
+toolbar.font:			-misc-fixed-medium-r-normal-*-*-120-*-*-*-*-*-*
+window.font:			-misc-fixed-bold-r-normal-*-*-120-*-*-*-*-*-*
+window.tab.font:		-misc-fixed-medium-r-normal-*-*-120-*-*-*-*-*-*
+
+# Borders
+bevelWidth:			1
+borderColor:			rgb:00/00/00
+borderWidth:			1
+handleWidth:			3
+window.tab.borderWidth:		1
