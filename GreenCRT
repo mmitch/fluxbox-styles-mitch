@@ -1,4 +1,4 @@
-# $Id: GreenCRT,v 1.2 2004-03-13 16:18:25 mitch Exp $
+# $Id: GreenCRT,v 1.3 2004-03-13 16:20:30 mitch Exp $
 #
 # Green CRT style for the Fluxbox window manager
 #
@@ -8,84 +8,84 @@
 # but none of the original settings have survived.
 
 toolbar:			Flat Interlaced
-toolbar.color:			rgb:00/40/00
+toolbar.color:			rgb:00/60/00
 toolbar.button:			parentrelative
-toolbar.button.color:		rgb:00/40/00
-toolbar.button.picColor:	rgb:00/A0/00
+toolbar.button.color:		rgb:00/60/00
+toolbar.button.picColor:	rgb:00/B0/00
 
 toolbar.button.pressed:		Flat Interlaced
-toolbar.button.pressed.color:	rgb:00/80/00
+toolbar.button.pressed.color:	rgb:00/90/00
 
 toolbar.clock:			parentrelative
-toolbar.clock.color:		rgb:00/40/00
-toolbar.clock.textColor:	rgb:00/A0/00
+toolbar.clock.color:		rgb:00/60/00
+toolbar.clock.textColor:	rgb:00/B0/00
 
 toolbar.label:			parentrelative
-toolbar.label.color:		rgb:00/40/00
-toolbar.label.textColor:	rgb:00/A0/00
+toolbar.label.color:		rgb:00/60/00
+toolbar.label.textColor:	rgb:00/B0/00
 
 toolbar.windowLabel:		parentrelative
-toolbar.windowLabel.color:	rgb:00/40/00
-toolbar.windowLabel.textColor:	rgb:00/A0/00
+toolbar.windowLabel.color:	rgb:00/60/00
+toolbar.windowLabel.textColor:	rgb:00/B0/00
 
 menu.title:			Flat Gradient Vertical Interlaced
-menu.title.color:		rgb:00/40/00
-menu.title.colorTo:		rgb:00/40/00
-menu.title.textColor:		rgb:00/CF/00
+menu.title.color:		rgb:00/60/00
+menu.title.colorTo:		rgb:00/60/00
+menu.title.textColor:		rgb:00/DF/00
 
 menu.frame:			Flat Interlaced
-menu.frame.color:		rgb:00/40/00
-menu.frame.textColor:		rgb:00/A0/00
+menu.frame.color:		rgb:00/60/00
+menu.frame.textColor:		rgb:00/B0/00
 
 menu.hilite:			Flat Gradient Vertical Interlaced
-menu.hilite.color:		rgb:00/80/00
-menu.hilite.colorTo:		rgb:00/80/00
-menu.hilite.textColor:		rgb:00/CF/00
+menu.hilite.color:		rgb:00/90/00
+menu.hilite.colorTo:		rgb:00/90/00
+menu.hilite.textColor:		rgb:00/DF/00
 
 menu.bullet:			Triangle
 menu.bullet.position:		Right
 
 window.title.focus:		Flat Gradient Vertical Interlaced
-window.title.focus.color:	rgb:00/60/00
-window.title.focus.colorTo:	rgb:00/60/00
+window.title.focus.color:	rgb:00/70/00
+window.title.focus.colorTo:	rgb:00/70/00
 window.title.unfocus:		Flat Interlaced
-window.title.unfocus.color:	rgb:00/40/00
+window.title.unfocus.color:	rgb:00/60/00
 
 window.label.focus:		parentrelative
-window.label.focus.textColor:	rgb:00/CF/00
+window.label.focus.textColor:	rgb:00/DF/00
 window.label.unfocus:		parentrelative
-window.label.unfocus.textColor:	rgb:00/A0/00
+window.label.unfocus.textColor:	rgb:00/B0/00
 
 window.button.focus:		parentrelative
-window.button.focus.picColor:	rgb:00/CF/00
+window.button.focus.picColor:	rgb:00/DF/00
 window.button.unfocus:		parentrelative
-window.button.unfocus.picColor:	rgb:00/A0/00
+window.button.unfocus.picColor:	rgb:00/B0/00
 window.button.pressed:		Flat Interlaced
-window.button.pressed.color:	rgb:00/40/00
+window.button.pressed.color:	rgb:00/60/00
 
 window.frame.focus:		Flat Interlaced
-window.frame.focusColor:	rgb:00/80/00
+window.frame.focusColor:	rgb:00/90/00
 window.frame.unfocus:		Flat Interlaced
-window.frame.unfocusColor:	rgb:00/40/00
+window.frame.unfocusColor:	rgb:00/60/00
 
 window.handle.focus:		Flat
-window.handle.focus.color:	rgb:00/60/00
+window.handle.focus.color:	rgb:00/70/00
 window.handle.unfocus:		Flat
-window.handle.unfocus.color:	rgb:00/40/00
+window.handle.unfocus.color:	rgb:00/60/00
 
 window.grip.focus:		Flat
-window.grip.focus.color:	rgb:00/A0/00
+window.grip.focus.color:	rgb:00/B0/00
 window.grip.unfocus:		Flat
-window.grip.unfocus.color:	rgb:00/60/00
+window.grip.unfocus.color:	rgb:00/70/00
 
 window.tab.label.unfocus:	        Flat Interlaced
-window.tab.label.unfocus.color:	   	rgb:00/40/00
-window.tab.label.unfocus.textColor:	rgb:00/A0/00
+window.tab.label.unfocus.color:	   	rgb:00/60/00
+window.tab.label.unfocus.textColor:	rgb:00/B0/00
 
 window.tab.label.focus:	        	Flat Gradient Vertical Interlaced
-window.tab.label.focus.Color:	  	rgb:00/40/00
-window.tab.label.focus.ColorTo:	  	rgb:00/40/00
-window.tab.label.focus.textColor:	rgb:00/CF/00
+window.tab.label.focus.Color:	  	rgb:00/60/00
+window.tab.label.focus.ColorTo:	  	rgb:00/60/00
+window.tab.label.focus.textColor:	rgb:00/DF/00
 
 window.tab.borderColor:			rgb:00/00/00
 
