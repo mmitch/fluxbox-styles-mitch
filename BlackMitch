@@ -1,4 +1,4 @@
-# $Id: BlackMitch,v 1.2 2004-10-16 11:20:40 mitch Exp $
+# $Id: BlackMitch,v 1.3 2004-10-16 11:38:18 mitch Exp $
 # Black Mitch  --  very minimal, very black
 # built from scratch
 # (c) 2004 by <mitch@cgarbs.de>
@@ -12,12 +12,17 @@ window.button.unfocus.picColor:	#666666
 window.label.focus.textColor:	#ffffff
 menu*textColor:			#ffffff
 toolbar*textColor:		#ffffff
+window*focus.textColor:		#ffffff
 
 # hilight menu selection
 
 menu.hilite.color:		#000000
 menu.hilite.colorTo:		#666666
 menu.hilite:			flat interlaced
+
+# bullets to the right (only visible with fluxbox<0.9 anyway)
+
+menu.bullet.position:		right
 
 # defaults
 
@@ -27,4 +32,5 @@ menu.hilite:			flat interlaced
 *color:				#000000
 *font:				-*-lucida-medium-r-*-*-*-100-*-*-*-*-*-*
 *handleWidth:			2
+*picColor:			#ffffff
 
