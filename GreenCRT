@@ -1,4 +1,4 @@
-# $Id: GreenCRT,v 1.6 2004-08-02 10:24:44 mitch Exp $
+# $Id: GreenCRT,v 1.7 2004-08-04 10:28:38 mitch Exp $
 #
 # Green CRT style for the Fluxbox window manager
 #
@@ -10,11 +10,12 @@
 toolbar:			Flat Solid Interlaced
 toolbar.color:			rgb:00/60/00
 toolbar.colorTo:		rgb:00/00/00
+
 toolbar.button:			ParentRelative
 toolbar.button.color:		rgb:00/60/00
 toolbar.button.picColor:	rgb:00/B0/00
 
-toolbar.button.pressed:		Flat Solid Interlaced
+toolbar.button.pressed:		ParentRelative
 toolbar.button.pressed.color:	rgb:00/90/00
 toolbar.button.pressed.colorTo:	rgb:00/00/00
 
@@ -23,12 +24,6 @@ toolbar.clock.color:		rgb:00/60/00
 toolbar.clock.colorTo:		rgb:00/60/00
 toolbar.clock.textColor:	rgb:00/B0/00
 
-# Interlacing does not work in v0.9.x?
-toolbar.label:			Flat Solid Interlaced
-toolbar.label.color:		rgb:00/60/00
-toolbar.label.colorTo:		rgb:00/00/00
-toolbar.label.textColor:	rgb:00/B0/00
-
 toolbar.iconbar.focused:	ParentRelative
 toolbar.iconbar.unfocused:	ParentRelative
 toolbar.iconbar.*.color:	rgb:00/60/00
@@ -36,10 +31,20 @@ toolbar.iconbar.*.colorTo:	rgb:00/00/00
 toolbar.iconbar.unfocused.textColor:	rgb:00/B0/00
 toolbar.iconbar.focused.textColor:	rgb:00/DF/00
 
+toolbar.label:			ParentRelative
+toolbar.label.color:		rgb:00/60/00
+toolbar.label.colorTo:		rgb:00/00/00
+toolbar.label.textColor:	rgb:00/B0/00
+
 toolbar.windowLabel:		ParentRelative
 toolbar.windowLabel.color:	rgb:FF/60/00
 toolbar.windowLabel.colorTo:	rgb:00/00/00
 toolbar.windowLabel.textColor:	rgb:00/B0/00
+
+toolbar.workspace:		ParentRelative
+toolbar.workspace.color:	rgb:00/60/00
+toolbar.workspace.colorTo:	rgb:00/00/00
+toolbar.workspace.textColor:	rgb:00/B0/00
 
 menu.title:			Flat Gradient Vertical Interlaced
 menu.title.color:		rgb:00/60/00
