@@ -1,4 +1,4 @@
-# $Id: MitchleyKayFlat,v 1.2 2004-08-02 09:49:24 mitch Exp $
+# $Id: MitchleyKayFlat,v 1.3 2004-08-04 11:02:54 mitch Exp $
 # Mitchley Kay Flat
 # 2003 by <mitch@cgarbs.de>
 #
@@ -20,11 +20,11 @@ toolbar.button.color:		rgb:62/70/85
 toolbar.button.colorTo:		rgb:56/66/75
 toolbar.button.picColor:	rgb:FF/FF/FF
 
-toolbar.button.pressed:		Flat Gradient Horizontal
+toolbar.button.pressed:		ParentRelative
 toolbar.button.pressed.color:	rgb:42/50/65
 toolbar.button.pressed.colorTo:	rgb:36/46/55
 
-toolbar.clock:			Flat Gradient Vertical Interlaced
+toolbar.clock:			ParentRelative
 toolbar.clock.color:		rgb:62/70/85
 toolbar.clock.colorTo:		rgb:56/66/75
 toolbar.clock.textColor:	rgb:FF/FF/FF
@@ -42,6 +42,11 @@ toolbar.windowLabel:		Flat Gradient Vertical Interlaced
 toolbar.windowLabel.color:	rgb:62/70/85
 toolbar.windowLabel.colorTo:	rgb:56/66/75
 toolbar.windowLabel.textColor:	rgb:FF/FF/FF
+
+toolbar.workspace:		ParentRelative
+toolbar.workspace.color:	rgb:62/70/85
+toolbar.workspace.colorTo:	rgb:56/66/75
+toolbar.workspace.textColor:	rgb:FF/FF/FF
 
 toolbar.justify:		center
 
