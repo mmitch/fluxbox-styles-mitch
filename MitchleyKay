@@ -1,3 +1,9 @@
+# $Id: MitchleyKay,v 1.2 2003-12-15 23:23:51 mitch Exp $
+# Mitchley Kay
+# 2003 by <mitch@cgarbs.de>
+#
+# this is just a minor variation of:
+
 # Merely Kay
 # A Fluxbox theme by: skypher of perplexity
 # 2001
@@ -5,7 +11,7 @@
 #	by Pax, thanks!)
 # update: added *.tab.* stuff to make fluxbox look real cool :)
 
-toolbar:			Raised Gradient Veritcal
+toolbar:			Raised Gradient Vertical
 toolbar.color:			rgb:62/70/85
 toolbar.colorTo:		rgb:56/66/75
 
@@ -39,15 +45,15 @@ menu.title:			Raised Gradient Horizontal Interlaced
 menu.title.color:		rgb:62/66/70
 menu.title.colorTo:		rgb:56/60/68
 menu.title.textColor:		rgb:E9/E9/E9
-menu.title.justify:		Center
+menu.title.justify:		Right
 
-menu.frame:			Sunken Gradient PipeCross
+menu.frame:			Sunken Gradient Vertical Interlaced
 menu.frame.color:		rgb:62/70/85
 menu.frame.colorTo:		rgb:56/66/75
 menu.frame.textColor:		rgb:E2/E2/E2
 menu.frame.justify:		Left
 
-menu.hilite:			Raised Gradient PipeCross
+menu.hilite:			Raised Gradient Horizontal Interlaced
 menu.hilite.color:		rgb:50/50/50
 menu.hilite.colorTo:		rgb:42/42/42
 menu.hilite.textColor:		rgb:FF/FF/FF
@@ -121,8 +127,8 @@ window.justify:			Center
 window.tab.font:	                -*-clean-medium-r-*-*-12-*-*-*-*-60-iso8859-*
 toolbar.font:                   -*-lucida-bold-r-*-*-*-100-*-*-*-*-*-*
 window.font: -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-iso8859-*
-#menu.title.font:                -*-lucida-bold-r-*-*-*-100-*-*-*-*-*-*
-menu.title.font:  -*-lucida-bold-r-*-*-*-100-*-*-*-*-*-*
+menu.title.font:                -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-iso8859-*
+#menu.title.font:  		-*-lucida-bold-r-*-*-*-100-*-*-*-*-*-*
 menu.frame.font:                -*-lucida-medium-r-*-*-*-100-*-*-*-*-*-*
 
 borderColor:			rgb:00/00/00
