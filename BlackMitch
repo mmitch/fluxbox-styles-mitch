@@ -1,0 +1,30 @@
+# $Id: BlackMitch,v 1.1 2004-10-16 11:02:43 mitch Exp $
+# Black Mitch  --  very minimal, very black
+# built from scratch
+# (c) 2004 by <mitch@cgarbs.de>
+# Licensed under GNU GPL.
+
+# defaults
+
+*bevelWidth:	0
+*borderColor:	black
+*borderWidth:	0
+*color:		black
+*font:		-*-lucida-medium-r-*-*-*-100-*-*-*-*-*-*
+*handleWidth:	2
+*textColor:	white
+
+# hilight active window
+
+window.button.focus.color:	#444444
+window.button.focus.colorTo:	#000000
+window.button.focus:		raised gradient vertical
+window.label.focus.color:	#444444
+window.label.focus.colorTo:	#000000
+window.label.focus:		raised gradient vertical
+
+# hilight menu selection
+
+menu.hilite.color:		#000000
+menu.hilite.colorTo:		#666666
+menu.hilite:			flat interlaced
