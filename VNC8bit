@@ -1,4 +1,4 @@
-# $Id: VNC8bit,v 1.1 2003-12-21 12:42:19 mitch Exp $
+# $Id: VNC8bit,v 1.2 2003-12-22 21:56:54 mitch Exp $
 # VNC 8bit
 # 2003 by <mitch@cgarbs.de>
 #
@@ -116,10 +116,10 @@ window.tab.font:	               -*-lucidatypewriter-medium-r-normal-*-10-100-75-
 
 window.justify:			Right
 
-toolbar.font: -*-lucidatypewriter-medium-r-normal-*-10-100-75-75-m-60-iso8859-*
-window.font: -misc-8x8\ system\ font-medium-r-normal--9-90-100-100-m-100-iso8859-*
-menu.title.font:  -*-lucidatypewriter-medium-r-normal-*-10-100-75-75-m-60-iso8859-*
-menu.frame.font:                -*-lucida-medium-r-normal-*-10-100-*-*-*-*-iso8859-*
+toolbar.font: 		-*-lucidatypewriter-medium-r-normal-*-10-100-75-75-m-60-iso8859-*
+window.font: 		-misc-8x8\ system\ font-medium-r-normal--9-90-100-100-m-100-iso8859-*
+menu.title.font:	-misc-8x8\ system\ font-medium-r-normal--9-90-100-100-m-100-iso8859-*
+menu.frame.font:    	-*-lucida-medium-r-normal-*-10-100-*-*-*-*-iso8859-*
 
 borderColor:			rgb:10/10/10
 
