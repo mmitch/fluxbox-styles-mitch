@@ -1,4 +1,4 @@
-# $Id: VNC8bit,v 1.4 2004-08-04 12:32:52 mitch Exp $
+# $Id: VNC8bit,v 1.5 2004-08-04 12:47:01 mitch Exp $
 # VNC 8bit
 # 2003 by <mitch@cgarbs.de>
 #
@@ -17,17 +17,17 @@
 
 toolbar:			Flat Solid Interlaced
 toolbar.color:			rgb:CC/CC/CC
+toolbar.colorTo:		rgb:FF/FF/FF
 
 toolbar.iconbar.empty:		ParentRelative
 toolbar.iconbar.empty.color:	rgb:CC/CC/CC
 toolbar.iconbar.focused:	Flat Solid
-#toolbar.iconbar.focused.color:	rgb:90/BB/CC
 toolbar.iconbar.focused.color:	rgb:AD/B4/CD
 toolbar.iconbar.unfocused:	ParentRelative
 toolbar.iconbar.unfocused.color:	rgb:90/BB/CC
 
-toolbar.workspace:		ParentRelative
-toolbar.workspace.color:	rgb:CC/CC/CC
+#toolbar.workspace:		ParentRelative
+#toolbar.workspace.color:	rgb:CC/CC/CC
 
 toolbar.button:			ParentRelative
 toolbar.button.color:		rgb:CC/CC/CC
@@ -73,8 +73,8 @@ menu.bullet:			Diamond
 menu.bullet.position:		Right
 
 
-window.title.focus:		Solid Raised Interlaced
-window.title.focus.color:	rgb:CC/CC/CD
+window.title.focus:		Solid Raised
+window.title.focus.color:	rgb:CC/CC/CC
 
 window.title.unfocus:		Flat Solid
 window.title.unfocus.color:	rgb:BE/BE/BE
