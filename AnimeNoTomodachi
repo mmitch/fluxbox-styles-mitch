@@ -1,0 +1,124 @@
+# $Id: AnimeNoTomodachi,v 1.1 2004-03-08 19:04:43 mitch Exp $
+#
+# Anime no Tomodachi style for the Fluxbox window manager
+#
+# 2004 by Christian Garbs <mitch@tomodachi.de>
+#
+# This style is designed to match the layouts from
+# http://anime.no.tomodachi.de and http://forum.tomodachi.de
+#
+# I started hacking with "Mereley Kay" (shipped with fluxbox) as a
+# template, but none of the original settings should have survived.
+
+toolbar:			Flat
+toolbar.color:			rgb:FF/F7/F1
+toolbar.button:			
+toolbar.button.color:		rgb:FF/F7/F1
+toolbar.button.picColor:	rgb:00/00/7F
+
+toolbar.button.pressed:		
+toolbar.button.pressed.color:	rgb:FF/AF/00
+
+toolbar.clock:			
+toolbar.clock.color:		rgb:FF/F7/F1
+toolbar.clock.textColor:	rgb:00/00/7F
+
+toolbar.label:			
+toolbar.label.color:		rgb:FF/F7/F1
+toolbar.label.textColor:	rgb:00/00/7F
+
+toolbar.windowLabel:		
+toolbar.windowLabel.color:	rgb:FF/F7/F1
+toolbar.windowLabel.textColor:	rgb:00/00/7F
+
+menu.title:			Gradient Horizontal
+menu.title.color:		rgb:FF/5F/00
+menu.title.colorTo:		rgb:FF/9F/00
+menu.title.textColor:		rgb:00/00/7F
+menu.title.justify:		Center
+
+menu.frame:			Flat Gradient Diagonal Bevel1
+menu.frame.color:		rgb:FF/D7/BC
+menu.frame.colorTo:		rgb:EE/DC/D1
+menu.frame.textColor:		rgb:00/00/7F
+
+menu.hilite:			Flat Gradient Horizontal Interlaced
+menu.hilite.color:		rgb:50/50/50
+menu.hilite.colorTo:		rgb:42/42/42
+menu.hilite.textColor:		rgb:FF/5F/00
+
+menu.bullet:			Triangle
+menu.bullet.position:		Right
+
+window.title.focus:		Gradient Horizontal
+window.title.focus.color:	rgb:FF/3F/00
+window.title.focus.colorTo:	rgb:FF/9F/00
+window.title.unfocus:		Flat Gradient Horizontal
+window.title.unfocus.color:	rgb:EE/DC/D1
+window.title.unfocus.colorTo:	rgb:FF/D7/BC
+
+window.label.focus:		Flat Gradient Horizontal
+window.label.focus.color:	rgb:FF/3F/00
+window.label.focus.colorTo:	rgb:FF/9F/00
+window.label.focus.textColor:	rgb:00/00/7F
+window.label.unfocus:		Flat Gradient Horizontal
+window.label.unfocus.color:	rgb:EE/DC/D1
+window.label.unfocus.colorTo:	rgb:FF/D7/BC
+window.label.unfocus.textColor:	rgb:FF/AF/00
+
+window.button.focus:		Flat Gradient Diagonal Bevel2
+window.button.focus.color:	rgb:FF/9F/00
+window.button.focus.colorTo:	rgb:F7/DC/CF
+window.button.focus.picColor:	rgb:00/00/7F
+window.button.unfocus:		Flat Gradient Diagonal Bevel2
+window.button.unfocus.color:	rgb:FF/D7/BC
+window.button.unfocus.colorTo:	rgb:F7/DC/CF
+window.button.unfocus.picColor:	rgb:C1/C1/C1
+window.button.pressed:		Flat Gradient Diagonal Bevel1
+window.button.pressed.color:	rgb:BF/5F/00
+window.button.pressed.colorTo:	rgb:B7/9C/8F
+
+window.frame.focus:		Flat
+window.frame.focus.color:	rgb:87/99/9F
+window.frame.unfocus:		Flat
+window.frame.unfocus.color:	rgb:87/99/9F
+
+window.handle.focus:		Flat
+window.handle.focus.color:	rgb:F7/DC/CF
+window.handle.unfocus:		Flat
+window.handle.unfocus.color:	rgb:B1/A7/A1
+
+window.grip.focus:		Flat 
+window.grip.focus.color:	rgb:FF/9F/00
+window.grip.unfocus:		Flat
+window.grip.unfocus.color:	rgb:BF/AF/A1
+
+window.tab.label.unfocus:	        Flat
+window.tab.label.unfocus.color:	   	rgb:E1/D7/D1
+window.tab.label.unfocus.textColor:	rgb:00/00/7F
+
+window.tab.label.focus:	        	
+window.tab.label.focus.color:	  	rgb:ED/DF/D1
+window.tab.label.focus.textColor:	rgb:FF/5F/00
+
+window.tab.borderColor:			rgb:E9/DB/D1
+
+# Justification
+menu.frame.justify:		Left
+toolbar.justify:		Center
+window.justify:			Center
+window.tab.justify:	        Center
+
+# Fonts
+menu.frame.font:              	-*-helvetica-medium-r-*-*-*-100-*-*-*-*-*-*
+menu.title.font:		-*-helvetica-bold-r-*-*-12-*-*-*-*-*-iso8859-*
+toolbar.font:			-*-helvetica-medium-r-*-*-*-*-*-*-*-*-*-*
+window.font:			-*-helvetica-bold-r-normal-*-12-*-*-*-*-*-iso8859-*
+window.tab.font:		-*-clean-medium-r-*-*-12-*-*-*-*-60-iso8859-*
+
+# Borders
+bevelWidth:			2
+borderColor:			rgb:00/00/00
+borderWidth:			1
+handleWidth:			3
+window.tab.borderWidth:		1
